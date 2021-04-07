@@ -274,7 +274,7 @@ section .title::after{
     content: "Certificates";
 }
 .Achievements .serv-content .card{
-    width: calc(50% - 35px);
+    width: calc(50% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -306,6 +306,14 @@ section .title::after{
     text-decoration: underline;
     color: #00FFFF;
 }
+.box #progress {
+    font-size: 20px;
+    color: #fffb00;
+}
+#progress:hover{
+    text-decoration: underline;
+    color: #00FFFF;
+}
 .Achievements .serv-content .card:hover i{
     color: #fff;
 }
@@ -314,6 +322,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 10px 7px 5px;
 }
+
 
 /* skills section styling */
 
@@ -697,5 +706,31 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .Achievements .serv-content .card{
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+}
+.Achievements .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+
+}
+.Achievements .serv-content .card{
+    width: calc(50% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.box #bootcamp {
+    font-size: 20px;
+}
+.box #progress {
+    font-size: 18px;
+}
     
 } 
