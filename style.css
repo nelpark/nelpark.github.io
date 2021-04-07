@@ -726,6 +726,11 @@ footer span a:hover{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+    .Achievements .serv-content .card .text{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 10px 7px 5px;
+}
 .box #bootcamp {
     font-size: 20px;
 }
