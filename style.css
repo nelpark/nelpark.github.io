@@ -211,7 +211,7 @@ section .title::after{
 }
 .home .home-content a:hover{
     color: crimson;
-    background: none;
+    background: #fff;
 }
 
 /* about section styling */
@@ -263,6 +263,7 @@ section .title::after{
     color:#fff;
     background: #111;
 }
+
 .Achievements .title::before,
 .teams .title::before{
     background: #fff;
@@ -273,7 +274,7 @@ section .title::after{
     content: "Certificates";
 }
 .Achievements .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(50% - 35px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -291,12 +292,15 @@ section .title::after{
     transform: scale(1.05);
 }
 .Achievements .serv-content .card i{
-    font-size: 50px;
+    font-size: 100px;
     color: crimson;
     transition: color 0.3s ease;
+    margin: 0 10px;
+
 }
-#preview-1 {
-    color: #6fbdb1;
+.preview #preview-1 {
+    color: #fffb00;
+    font-size: 20px;
 }
 #preview-1:hover{
     text-decoration: underline;
@@ -308,7 +312,7 @@ section .title::after{
 .Achievements .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 10px 7px 5px;
 }
 
 /* skills section styling */
@@ -377,7 +381,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 30%;
 }
 
 /* teams section styling */
