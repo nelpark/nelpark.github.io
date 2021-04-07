@@ -724,7 +724,7 @@ footer span a:hover{
     margin: 10px 0 10px 0;
 }
     .Achievements .serv-content .card{
-    width: calc(55% - 45px);
+    width: calc(55% - 50px);
     background: #222;
     text-align: center;
     border-radius: 6px;
