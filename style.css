@@ -717,22 +717,14 @@ footer span a:hover{
     margin: 0 10px;
 
 }
-.Achievements .serv-content .card{
-    width: calc(50% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 15px 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+
     .Achievements .serv-content .card .text{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    margin: 10px 10px 7px 5px;
+    margin: 10px 0 10px 0;
 }
     .Achievements .serv-content .card{
-    width: calc(55% - 20px);
+    width: calc(55% - 25px);
     background: #222;
     text-align: center;
     border-radius: 6px;
